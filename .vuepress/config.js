@@ -32,6 +32,12 @@ module.exports = {
           {text: "Bootstrap", link: '/tasks/bootstrap'},
           {text: "Placeholder", link: '/tasks/placeholder'},
         ]
+      },
+      {text: "Packages",
+        items: [
+          {text: "Axios for HTTP", link: '/packages/axios'},
+          {text: "Datatables", link: '/packages/datatables'}
+        ]
       }
     ],
     sidebar: {
@@ -54,6 +60,9 @@ module.exports = {
       ],
       '/vuex/': [
         ''   
+      ],
+      '/packages/': [
+        'axios'
       ],
       '/': [
         '',
